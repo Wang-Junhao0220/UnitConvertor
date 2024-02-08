@@ -6,7 +6,9 @@ import java.awt.*;
 
 public class ConvertorSelectorFrame extends JFrame {
     JLabel label;
+    boolean ClickCount=false;
     public ConvertorSelectorFrame(String title) {
+
 
         super(title);
         setLayout(new FlowLayout(FlowLayout.LEFT,20,20));
